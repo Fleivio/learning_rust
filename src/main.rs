@@ -3,8 +3,6 @@ use turing::tape::*;
 use turing::*;
 mod turing;
 
-
-
 fn main() {
     let q0: State = State::new(String::from("0"), false);
     let q1: State = State::new(String::from("1"), true);
